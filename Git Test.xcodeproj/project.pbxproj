@@ -21,6 +21,7 @@
 		26A7EDCA18163DF100EB6EB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A7EDAC18163DF000EB6EB6 /* UIKit.framework */; };
 		26A7EDD218163DF200EB6EB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26A7EDD018163DF200EB6EB6 /* InfoPlist.strings */; };
 		26A7EDD418163DF200EB6EB6 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A7EDD318163DF200EB6EB6 /* Git_TestTests.m */; };
+		26A7EDDF181643EC00EB6EB6 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A7EDDE181643EC00EB6EB6 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		26A7EDCF18163DF200EB6EB6 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		26A7EDD118163DF200EB6EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		26A7EDD318163DF200EB6EB6 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		26A7EDDD181643EC00EB6EB6 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		26A7EDDE181643EC00EB6EB6 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				26A7EDBE18163DF000EB6EB6 /* CCViewController.m */,
 				26A7EDC018163DF100EB6EB6 /* Images.xcassets */,
 				26A7EDAF18163DF000EB6EB6 /* Supporting Files */,
+				26A7EDDD181643EC00EB6EB6 /* CCTest.h */,
+				26A7EDDE181643EC00EB6EB6 /* CCTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A7EDB918163DF000EB6EB6 /* CCAppDelegate.m in Sources */,
+				26A7EDDF181643EC00EB6EB6 /* CCTest.m in Sources */,
 				26A7EDB518163DF000EB6EB6 /* main.m in Sources */,
 				26A7EDBF18163DF000EB6EB6 /* CCViewController.m in Sources */,
 			);
